@@ -18,3 +18,15 @@
     font-size: 1rem;
     margin-top: 5rem;
 }
+
+@media (max-width: 768px) {
+    .f-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .f-container>div{
+        align-items: center!important;
+        text-align: center;
+    }
+}
